@@ -1,0 +1,268 @@
+/*Day 1 -- Navigator*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --height-navigator: 4.5rem;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #e2eafc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+#navigator{
+    position:fixed;
+
+    width: 100%;
+    height: 4.5rem;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+nav {
+    width: 100%;
+    height: 4.5rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 1rem;
+}
+
+#navigator nav h1:hover {
+    color: rgb(97, 146, 236);
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(97, 146, 236);
+    border-bottom: darkorange 1px solid;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 1rem;
+}
+
+
+/*Day 2 -- Home*/
+
+#home {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.content-home {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#home div {
+    margin: 5rem;
+}
+
+.text-home {
+    margin-top: 10rem;
+    width: 800px;
+    font-size: 20px;
+
+}
+
+.text-home h1 {
+    margin-bottom: -1.2rem;
+}
+
+.text-home h1:hover {
+    color: darkorange;
+}
+
+.text-home p strong{
+    color: rgb(97, 146, 236);
+}
+
+.text-home p strong:hover {
+    color: darkorange;
+}
+
+.link-instagram {
+    width: 175px;
+    background: cornflowerblue;
+    padding: 1rem;
+    font-weight: 100;
+    border-radius: 0.30rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 3rem;
+}
+
+.link-instagram svg {
+    margin-right: 0.5rem;
+}
+
+.link-instagram:hover {
+    background: darkorange;
+    color: white;
+}
+
+.img-main-photo {
+    margin-top: -5rem;
+    width: 130%;
+    height: auto;
+}
+
+.mouse-indicator {
+    margin-top: -10rem;
+    margin-left: 40rem;    
+}
+
+.divider-1 {
+    margin-top: 5rem;
+    border: rgba(0, 0, 0, 0.514) 1px solid ;
+    
+}
+
+/* Day3-SobreMim */
+
+
+#aboutme, .content-aboutme {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-aboutme {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.text-aboutme {
+    width: 100%;
+    margin: -10rem 0 0 10rem;
+}
+
+.text-aboutme p {
+    width: 550px;
+}
+
+#aboutme .content-aboutme  h1 {
+    font-size: 36px;
+}
+
+
+/* Day4-Project */
+
+.projects .icons-project {
+    width: 100%;
+   /* height: 40rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0 ;
+}
+
+.title-project {
+    text-align: center;
+    font-size: 38px;
+}
+
+.first-table-img th,
+.second-table-img td {
+    background: #f7d488;    
+    max-width: 200px;
+    height: 100px;
+    border-radius: 0.50rem;
+    text-align: left;
+}
+
+
+/*day5-conhecimentos*/
+
+.content-conhecimentos {
+    width: 100%;
+    height: 40rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -5rem;
+}
+
+.title-conhecimentos {
+    font-size: 38px;
+    text-align: center;
+}
+
+.text-conhecimentos {
+    margin-left: 12rem;
+    margin-right: 15rem;
+}
+
+.img-conhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.img-conhecimentos div {
+    background: #212121;
+    padding: 5rem;
+    margin: 1rem;
+}
+
+
+.img-conhecimentos div:hover {
+    border-radius: 1rem;
+    border: darkred 1px solid;
+
+}
